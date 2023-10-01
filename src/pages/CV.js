@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-import Education from '../components/Resume/Education';
-import Experience from '../components/Resume/Experience';
-import Skills from '../components/Resume/Skills';
-import Courses from '../components/Resume/Courses';
-import References from '../components/Resume/References';
+import Education from '../components/CV/Education';
+import Experience from '../components/CV/Experience';
+import Skills from '../components/CV/Skills';
+import Courses from '../components/CV/Courses';
+import References from '../components/CV/References';
 
-import courses from '../data/resume/courses';
-import degrees from '../data/resume/degrees';
-import work from '../data/resume/work';
-import { skills, categories } from '../data/resume/skills';
+import courses from '../data/cv/courses';
+import degrees from '../data/cv/degrees';
+import work from '../data/cv/work';
+import { skills, categories } from '../data/cv/skills';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
@@ -23,15 +23,15 @@ const sections = {
   References: () => <References />,
 };
 
-const Resume = () => (
+const CV = () => (
   <Main
-    title="Resume"
-    description="Michael D'Angelo's Resume. Smile Identity, Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook."
+    title="CV"
+    description="Ari Dyckovsky's CV. Smile Identity, Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook."
   >
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2><Link to="resume">Resume</Link></h2>
+          <h2><Link to="cv">Curriculum Vitae</Link></h2>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>
@@ -47,4 +47,4 @@ const Resume = () => (
   </Main>
 );
 
-export default Resume;
+export default CV;
