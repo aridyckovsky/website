@@ -20,26 +20,26 @@
 
 // Font.
 	$font: (
-		family:						('Assistant', Helvetica, sans-serif),
+		family:						('Libertinus Serif', sans-serif),
 		family-fixed:				('Courier New', monospace),
-		family-heading:				('Lato', Helvetica, sans-serif),
+		family-heading:				('Libertinus Serif', sans-serif),
 		weight:						400,
 		weight-bold:				700,
 		weight-heading:				400,
 		weight-heading-bold:		800,
 		weight-heading-extrabold:	900,
-		kerning-heading:			0.25em
+		kerning-heading:			0.13em
 	);
 
 // Palette.
 	$palette: (
-		bg:							#FDFFFC,
-		bg-alt:						#E3EAEC,
-		fg:							#122436,
-		fg-bold:					#0A141F,
-		fg-light:					#29527A,
-		border:						rgba(160,160,160,0.3),
-		border-bg:					rgba(160,160,160,0.075),
-		border-alt:					rgba(160,160,160,0.65),
-		accent:						#29527A
+		bg:							#FFFDF9,
+		bg-alt:						#FFFAF3,
+		fg:							#3D414B,
+		fg-bold:					#30343F,
+		fg-light:					#64666C,
+		border:						rgba(48,52,63,0.3),
+		border-bg:					rgba(48,52,63,0.075),
+		border-alt:					rgba(48,52,63,0.65),
+		accent:						#F7931A
 	);
