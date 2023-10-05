@@ -16,7 +16,6 @@ const Analytics = () => {
       ReactGA.set({
         page: pathname,
       });
-      ReactGA.pageview(pathname);
     }
   }, [pathname]);
 
