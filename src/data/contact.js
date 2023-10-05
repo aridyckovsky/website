@@ -22,7 +22,7 @@ const data = [
     icon: faTwitter,
   },
   {
-    link: 'mailto:aridyckovsky@gmail.com',
+    link: 'mailto:ari@aridyckovsky.com',
     label: 'Email',
     icon: faEnvelope,
   },
