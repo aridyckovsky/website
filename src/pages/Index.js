@@ -6,7 +6,7 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={"Ari Dyckovsky's personal website. PhD Candidate & NSF "
-      + 'Graduate Fellow at Princeton Universit studying collective '
+      + 'Graduate Fellow at Princeton University studying collective '
       + 'psychological phenomena in social networks and financial markets.'}
   >
     <article className="post" id="index">
