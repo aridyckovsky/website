@@ -50,7 +50,7 @@ const CV = () => (
       <p>
         View my{' '}
         <Link
-          to={`${PUBLIC_URL}/files/cv-dyckovsky-oct-2023.pdf`}
+          to={`${PUBLIC_URL}/files/cv-dyckovsky-apr-2024.pdf`}
           target="_blank"
         >
           CV
